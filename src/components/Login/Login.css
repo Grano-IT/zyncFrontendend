@@ -1,0 +1,14 @@
+.password-show-but{
+  all: unset;
+}
+
+.pass-div{
+    width: 100%;
+    border-radius: 6px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    background-color: aliceblue;
+}
+.login__pass{
+    border:transparent !important;
+}

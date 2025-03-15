@@ -1,0 +1,123 @@
+.what__we__title{
+    padding-bottom: 60px;
+}
+
+.service__part img{
+    /* background-color: red; */
+   width: 60px;
+   margin-bottom: 20px;
+  
+}
+.service__part span:nth-of-type()
+
+.what__we__do_text{
+    margin: auto;
+    font-weight: 500px;
+  
+    width:80%;
+}
+.what__we__do_text span{
+    font-weight: 500px;
+    color:#9898aa;
+   
+}
+.what-we-box-1{
+      border-right: 2px solid  #ababb85f;
+   
+}
+.what-we-box-2{
+    border-right: 2px solid   #ababb85f;
+}
+.what-we-box-4{
+    border-right: 2px solid  #ababb85f;
+    border-top: 2px solid   #ababb85f;
+}
+.what-we-box-5{
+    border-right: 2px solid   #ababb85f;
+    border-top: 2px solid  #ababb85f;
+}
+.what-we-box-6{
+    border-top: 2px solid  #ababb85f;
+
+}
+
+
+
+.service__part {
+    /* background-color: red; */
+    font-size: clamp(0.4rem, 5vw, 1rem);
+    padding: 30px;
+  
+}
+
+@media screen and (max-width:1100px) {
+    .what__we__do_text{
+
+        width:95%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .service__part img{
+        /* background-color: red; */
+       width: 100px;
+      
+    }
+}
+
+@media screen and (max-width:766px) {
+    .what-we-box-1{
+        border-right:2px solid  #ababb85f;
+  }
+  .what-we-box-2{
+      border-right:transparent;
+  }
+  .what-we-box-3{
+     border-right:2px solid   #ababb85f;
+     border-top: 2px solid   #ababb85f;
+  }
+  .what-we-box-4{
+      border-right: transparent;
+      border-top: 2px solid   #ababb85f;  }
+  .what-we-box-5{
+      border-right:2px solid   #ababb85f;
+      border-top: 2px solid   #ababb85f;
+  }
+  .what-we-box-6{
+      border-top: transparent;
+      border-top: 2px solid   #ababb85f;
+  
+  }
+
+
+  
+}
+
+@media screen and (max-width:578px){
+    .what-we-box-1{
+        border: none;
+     
+  }
+  .what-we-box-2{
+    border: none;
+  }
+  .what-we-box-3{
+    border: none;
+  }
+  .what-we-box-4{
+    border: none;
+     }
+  .what-we-box-5{
+    border: none;
+  }
+  .what-we-box-6{
+     border: none;
+  
+  }
+  .what__we__do_text{
+
+  
+    width:80%;
+}
+  
+}

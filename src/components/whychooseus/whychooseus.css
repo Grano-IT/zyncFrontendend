@@ -1,0 +1,35 @@
+.whychoose_us_title{
+    padding-top: 200px;
+}
+.whychoose_us_title span:nth-of-type(1){
+    font-weight: 700;
+    font-size: 18px;
+    color: #B0B0C0;
+}
+.whychoose_us_title span:nth-of-type(2){
+    font-weight: 300;
+    font-size: 48px;
+    color:#181B32;
+    line-height: 62.4px;
+}
+.why__cards{
+    width:289px;
+}
+.why__card{
+    margin-top: 80px;
+}
+.why__card_heading{
+    margin-top: 47px;
+}
+.why__content{
+    margin-top: 16px;
+}
+
+@media screen and (max-width:600px) {
+    .whychoose_us_title{
+        padding-top: 100px !important;
+    }
+    .why__cards{
+        margin-top: 10px;
+    }
+}
